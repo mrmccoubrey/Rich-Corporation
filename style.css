@@ -1,0 +1,547 @@
+/* <--- HTML/Body --->  */
+
+p, h5, h6 {
+    color: #000000;
+    font-family: arbutus slab;
+}
+
+
+.mdl-mega-footer {
+    
+    position: fixed;
+    bottom: -20px;
+    height: 20px;
+    width: 150%;
+    z-index: 6;
+    font-family: arbutus slab;
+}
+
+body {
+    height: 100%;
+}
+a {
+    color: blue;
+    font-family: arbutus slab;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+#backpiccontainer {
+    height: 100%;
+}
+
+/*#backpic1 {
+    position: fixed;
+    left: -150px;
+    z-index: 2;
+}
+
+#backpic2 {
+    position: fixed;
+    z-index: 2;
+}
+
+#backpic3 {
+    position: fixed;
+    z-index: 2;
+}
+
+#backpic4 {
+    position: fixed;
+    z-index: 2;
+}
+
+#backpic5 {
+    position: fixed;
+    z-index: 2;
+}
+*/
+
+/* --- End HTML/Body --- */
+
+/* <-- Titles --->  */
+
+#title {
+    position: relative;
+    left: 338px;
+    top: -3px;
+    
+}
+
+#discography {
+    position: relative;
+    top: -10px;
+    text-align: center;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+}
+
+#soundofluxury {
+    position: relative;
+    top: 10px;
+    right: 20px;
+    font-family: beachman script;
+    font-size: 30px;
+}
+
+#comingsoon {
+    position: relative;
+    left: 800px;
+    bottom: 550px;
+}
+
+#upcomingshowstitle {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+}
+
+#contactustitle {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+}
+
+#newstitle {
+    position: relative;
+    right: 2px;
+    top: 0px;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#ourgoal {
+    position: relative;
+    right: 2px;
+    bottom: 5px;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#members {
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-size: 80px;
+    font-family: beachman script;
+    letter-spacing: 2px;
+}
+
+/* --- End Titles --->
+
+
+/* <--- Navbar ---> */
+
+#navbar {
+    position: relative;
+    left: 35px;
+}
+#fbicon {
+    position: relative;
+    left: -5px;
+    height: 26px;
+}
+
+#fbicon:hover {
+    border-style: solid;
+    border-width: 0px;
+    border-color: #ffffff;
+}
+
+#twittericon {
+    position: relative;
+    left: 33px;
+    top: 2px;
+    height: 30px;
+}
+
+#instagramicon {
+    position: relative;
+    left: 70px;
+    top: 2px;
+    height: 30px;
+}
+
+#youtubeicon {
+    position: relative;
+    left: 110px;
+    height: 30px;
+}
+
+#soundcloudicon {
+    position: relative;
+    left: 148px;
+    height: 30px;
+}
+
+/* --- End Navbar --- */
+
+#sidebar {
+    text-align: center;
+    font-family: arbutus slab;
+}
+
+#bandcamp {
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+#video1 {
+}
+
+#video2 {
+}
+
+.videos {
+}
+
+#wrapper {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 500px;
+    height: 400px;
+}
+
+#wrapper2 {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    width: 500px;
+    height: 400px;
+}
+
+#soundcloud {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+#staywealthy {
+    position: relative;
+    left: 100px;
+}
+
+
+
+#container {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+
+
+
+
+#copyright {
+    position: relative;
+    bottom: 12px;
+    left: 523px;
+}
+
+/* 
+ 
+ <--- Black Underline Bars --->
+ 
+ */
+
+#discographyblackbar {
+    position: relative;
+    left: 510px;
+    top: -69px;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#blackbar1 {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#blackbar3 {
+    position: relative;
+    left: 510px;
+    top: 95px;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#newsblackbar {
+    position: relative;
+    left: 580px;
+    top: -58px;
+    width: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#contactusblackbar {
+    position: relative;
+    left: 500px;
+    top: -50px;
+    width: 22%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#upcomingshowsbar {
+    position: relative;
+    top: 120px;
+    left: 40px;
+    width: 34%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#blackbar2 {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    float: left;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#membersblackbar {
+    position: relative;
+    top: 0px;
+    left: 515px;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+
+
+
+
+#ourgoaltext {
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#ourgoalwrap {
+    width: 1000px;
+}
+
+#upcomingshowswrap {
+    position: relative;
+    left: -420px;
+    text-align: center;
+}
+
+
+
+#memberstext {
+    position: absolute;
+    bottom: 100px;
+    visibility: visible;
+    left: 400px;
+}
+
+#clarkpic {
+    position: relative;
+    left: 470px;
+    top: 0px;
+    height: 50px;
+}
+
+#clarkpic2 {
+    position: absolute;
+    left: -700px;
+    top: 20px;
+    height: 250px;
+}
+
+#markpic2 {
+    position: absolute;
+    left: -400px;
+    top: 0px;
+    height: 250px;
+}
+
+#clarktext {
+    visibility: hidden;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#marktext {
+    position: relative;
+    left: 300px;
+    bottom: 0px;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#markcontainer {
+    visibility: hidden;
+    position: relative;
+    left: 0px;
+    bottom: 80px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#davetext {
+    visibility: hidden;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#schottertext {
+    visibility: hidden;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#willietext {
+    visibility: hidden;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+
+#schotterpic {
+    position: relative;
+    left: 475px;
+    top: 0px;
+    height: 50px;
+}
+
+#williepic {
+    position: relative;
+    left: 480px;
+    top: 0px;
+    height: 50px;
+}
+
+#markpic {
+    position: relative;
+    left: 485px;
+    top: 0px;
+    height: 50px;
+}
+
+#davepic {
+    position: relative;
+    left: 495px;
+    top: 0px;
+    height: 50px;
+    
+}
+
+#slidewrap {
+    width: 800px;
+}
+
+.slide {
+    display: inline;
+    float: left;
+}
+
+.slide img:hover {
+    outline: 3px solid black;
+}
+
+.showtitles {
+    position: relative;
+    left: 50px;
+    color: #000000;
+    font-family: arbutus slab;
+}
+
+.showdates {
+    position: relative;
+    left: 50px;
+    color: #000000;
+    font-family: arbutus slab;
+}
+
+
+#showpic {
+    
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    height: 100%;
+    pointer-events: none;
+    
+}
+
+
+#showsmain {
+    overflow: scroll;
+}
+
+
+#contactustext {
+    text-align: center;
+}
