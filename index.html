@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='material.min.css'>
+        <link rel="stylesheet" href='style.css'>
+            <link rel="stylesheet" href='slideshow.css'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <!--
+     Author: Mark McCoubrey
+     Year: 2016
+     Rights: All Rights Reserved
+     -->
+</head>
+
+<body>
+  
+
+<style>
+    .demo-layout-transparent {
+        background-position: -90px 65px;
+        background-repeat: no-repeat;
+        background-color: #000000;
+        background-size: 110%;
+    
+    }
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div id="headerrow" class="mdl-layout__header-row">
+            <a href="https://www.facebook.com/richcorporation"><img id="fbicon" src="fb icon.png"></a><a href="https://www.twitter.com/richcorpmusic"><img id="twittericon" src="twitter icon.png" height=45%></a><a href="https://www.instagram.com/richcorpmusic/"><img id="instagramicon" src="instagram icon.png" height=45%></a><a href="https://www.youtube.com/channel/UC1_K7S3AAk42zZekTG0BHRA"><img id="youtubeicon" src="youtube icon.png" height=45%></a><a href="https://www.soundcloud.com/rich-corporation-1"><img id="soundcloudicon" src="soundcloud icon.png" height=45%></a>
+            <span class="mdl-layout-title" id="title"><a href="index.html"><img src="rc web logo3.png" width=80% height=75%></a></span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation" id="navbar">
+                <a class="mdl-navigation__link divnav" href="about us.html">About Us</a>
+                <a class="mdl-navigation__link divnav" href="shows.html">Shows</a>
+                <a class="mdl-navigation__link divnav" href="blog.html">Blog</a>
+                <a class="mdl-navigation__link divnav" href="contact us.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span id="soundofluxury" class="mdl-layout-title">The Sound of Luxury</span>
+        <nav class="mdl-navigation" id="sidebar">
+            <a class="mdl-navigation__link" href="listen.html">Listen</a>
+            <a class="mdl-navigation__link" href="watch.html">Watch</a>
+            <a class="mdl-navigation__link" href="network.html">Network</a>
+            <a class="mdl-navigation__link" href="merch.html">Merch</a>
+        </nav>
+    </div>
+    
+    <main class="mdl-layout__content">
+        <script type="text/javascript">
+            $('#backpiccontainer').hide();
+            </script>
+        <div id="backpiccontainer">
+        <img id="backpic1" class="backpic1" src="background12.jpg" height=100%>
+            <img id="backpic2" class="backpic2" src="background22.jpg" height=100%>
+                <img id="backpic3" class="backpic3" src="background32.jpg" height=100%>
+                    <img id="backpic4" class="backpic4" src="background52.jpg" height=100%>
+                        <img id="backpic5" class="backpic5" src="background62.jpg" height=100%>
+                            </div>
+    </main>
+    
+</div>
+
+<footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer__middle-section">
+       
+    
+        <div id="copyright" class="mdl-logo"><strong>Rich Corporation &copy; 2016</strong></div>
+
+                </div>
+                </footer>
+<script src="javascript.js" type="text/javascript"></script>
+<script src="javascript4.js" type="text/javascript"></script>
+</body>
+
+</html>
