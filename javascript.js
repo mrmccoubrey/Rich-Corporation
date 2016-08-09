@@ -1,8 +1,8 @@
 $(document).ready(function() {
                   $(".divnav").hover(function() {
-                                   $(this).animate({ color: "red" }, 100);
+                                   $(this).fadeIn({ color: "red" }, 100);
                                    },function() {
-                                   $(this).animate({ color: "white" }, 100);
+                                   $(this).fadeOut({ color: "white" }, 100);
                                    });
                   
                   });
