@@ -1,7 +1,7 @@
 $(document).ready(function() {
                   
                   var slide = [("#clarkpic"), ("#markpic"), ("#williepic"), ("#davepic"), ("#schotterpic")];
-                  var slideText = [("#clarktext"), ("#markcontainer"), ("#willietext"), ("#davetext"), ("#schottertext"), ("#memberstext")];
+                  var slideText = [("#clarkcontainer"), ("#markcontainer"), ("#williecontainer"), ("#davecontainer"), ("#schottercontainer"), ("#memberstext")];
                   
                  
                   $(slide[0]).click(function() {
