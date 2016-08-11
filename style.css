@@ -43,6 +43,16 @@ a:visited {
     color: blue;
 }
 
+.divnav {
+    color: white;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.divnav:hover {
+    color: red;
+}
+
 #backpiccontainer {
     height: 100%;
 }
