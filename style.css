@@ -5,20 +5,31 @@ p, h5, h6 {
     font-family: arbutus slab;
 }
 
+main {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 
 .mdl-mega-footer {
     
     position: fixed;
     bottom: -20px;
     height: 20px;
-    width: 150%;
+    width: 100%;
     z-index: 6;
     font-family: arbutus slab;
 }
 
+html {
+    width: 100%;
+    overflow: hidden;
+}
+
 body {
     height: 100%;
-}
+    }
 a {
     color: blue;
     font-family: arbutus slab;
@@ -344,7 +355,7 @@ a:visited {
 }
 
 
-
+/* --- About Us --- */
 
 
 #ourgoaltext {
@@ -386,23 +397,33 @@ a:visited {
 
 #clarkpic2 {
     position: absolute;
-    left: -700px;
-    top: 20px;
+    left: 130px;
+    top: -220px;
     height: 250px;
 }
 
 #markpic2 {
     position: absolute;
-    left: -400px;
-    top: 0px;
+    left: 130px;
+    top: -220px;
     height: 250px;
 }
 
 #clarktext {
+    position: absolute;
+    left: 850px;
+    bottom: -25px;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#clarkcontainer {
     visibility: hidden;
-    position: relative;
-    right: 80px;
-    bottom: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
     float: right;
     text-align: center;
     width: 370px;
@@ -411,16 +432,28 @@ a:visited {
 }
 
 #marktext {
-    position: relative;
-    left: 300px;
-    bottom: 0px;
+    position: absolute;
+    left: 850px;
+    bottom: 25px;
+    text-align: center;
+    width: 370px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+#markcontainer {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+    float: right;
     text-align: center;
     width: 370px;
     font-size: 30px;
     line-height: 45px;
 }
 
-#markcontainer {
+#davecontainer {
     visibility: hidden;
     position: relative;
     left: 0px;
@@ -432,11 +465,11 @@ a:visited {
     line-height: 45px;
 }
 
-#davetext {
+#schottercontainer {
     visibility: hidden;
-    position: relative;
-    right: 80px;
-    bottom: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
     float: right;
     text-align: center;
     width: 370px;
@@ -445,10 +478,27 @@ a:visited {
 }
 
 #schottertext {
+    position: absolute;
+    left: 850px;
+    bottom: -25px;
+    text-align: center;
+    width: 370px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+#schotterpic2 {
+    position: absolute;
+    left: 130px;
+    top: -220px;
+    height: 250px;
+}
+
+#williecontainer {
     visibility: hidden;
-    position: relative;
-    right: 80px;
-    bottom: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
     float: right;
     text-align: center;
     width: 370px;
@@ -456,17 +506,24 @@ a:visited {
     line-height: 45px;
 }
 
+#williepic2 {
+    position: absolute;
+    left: 130px;
+    top: -220px;
+    height: 250px;
+}
+
 #willietext {
-    visibility: hidden;
-    position: relative;
-    right: 80px;
-    bottom: 100px;
-    float: right;
+    position: absolute;
+    left: 850px;
+    bottom: 25px;
     text-align: center;
     width: 370px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 45px;
 }
+
+
 
 
 #schotterpic {
@@ -490,12 +547,43 @@ a:visited {
     height: 50px;
 }
 
+
+
+#davecontainer {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+    float: right;
+    text-align: center;
+    width: 370px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#davepic2 {
+    position: absolute;
+    left: 130px;
+    top: -220px;
+    height: 250px;
+}
+
 #davepic {
     position: relative;
     left: 495px;
     top: 0px;
     height: 50px;
     
+}
+
+#davetext {
+    position: absolute;
+    left: 850px;
+    bottom: 25px;
+    text-align: center;
+    width: 370px;
+    font-size: 25px;
+    line-height: 45px;
 }
 
 #slidewrap {
@@ -537,8 +625,8 @@ a:visited {
 }
 
 
-#showsmain {
-    overflow: scroll;
+#aboutusmaincontainer {
+    overflow-y: hidden;
 }
 
 
