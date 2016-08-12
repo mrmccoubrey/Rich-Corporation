@@ -45,8 +45,6 @@ a:visited {
 
 .divnav a{
     color: white;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
 }
 
 .divnav a:hover {
