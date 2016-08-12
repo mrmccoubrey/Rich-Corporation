@@ -43,13 +43,13 @@ a:visited {
     color: blue;
 }
 
-.divnav {
+.divnav a{
     color: white;
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
 }
 
-.divnav:hover {
+.divnav a:hover {
     color: red;
 }
 
