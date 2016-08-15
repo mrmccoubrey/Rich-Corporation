@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).on("load", function() {
                   
                   var slide = [("#clarkpic"), ("#markpic"), ("#williepic"), ("#davepic"), ("#schotterpic")];
                   var slideText = [("#clarkcontainer"), ("#markcontainer"), ("#williecontainer"), ("#davecontainer"), ("#schottercontainer"), ("#memberstext")];
