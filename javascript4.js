@@ -11,7 +11,7 @@ function cycleImages(){
  });
  }
  
- $(document).ready(function(){
+ $(window).on("load", function() {
  // run every 7s
                    $('#backpiccontainer').hide().delay(500);
                    $('#backpiccontainer').fadeIn(3500);
