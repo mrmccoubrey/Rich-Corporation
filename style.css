@@ -5,9 +5,14 @@
     src: url(beachmanscript.ttf);
 }
 
+@font-face {
+    font-family: not cursive;
+    src: url(ArbutusSlab-Regular.ttf)
+}
+
 p, h5, h6 {
     color: #000000;
-    font-family: arbutus slab;
+    font-family: "arbutus slab", not cursive;
 }
 
 main {
@@ -24,7 +29,7 @@ main {
     height: 20px;
     width: 100%;
     z-index: 6;
-    font-family: arbutus slab;
+    font-family: "arbutus slab", not cursive;
 }
 
 html {
@@ -37,7 +42,7 @@ body {
     }
 a {
     color: blue;
-    font-family: arbutus slab;
+    font-family: "arbutus slab", not cursive;
 }
 
 a:link {
@@ -111,7 +116,7 @@ a:visited {
     position: relative;
     top: 10px;
     right: 20px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     font-size: 30px;
 }
 
@@ -126,7 +131,7 @@ a:visited {
     top: 20px;
     left: 50px;
     font-size: 80px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     letter-spacing: 2px;
 }
 
@@ -135,7 +140,7 @@ a:visited {
     bottom: 0px;
     text-align: center;
     font-size: 80px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     letter-spacing: 2px;
 }
 
@@ -144,7 +149,7 @@ a:visited {
     right: 2px;
     top: 0px;
     font-size: 80px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -154,7 +159,7 @@ a:visited {
     right: 2px;
     bottom: 5px;
     font-size: 80px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -164,7 +169,7 @@ a:visited {
     text-align: center;
     top: 15px;
     font-size: 80px;
-    font-family: cursive;
+    font-family: "beachman script", cursive;
     letter-spacing: 2px;
 }
 
@@ -219,7 +224,7 @@ a:visited {
 
 #sidebar {
     text-align: center;
-    font-family: arbutus slab;
+    font-family: "arbutus slab", not cursive;
 }
 
 #bandcamp {
@@ -623,7 +628,7 @@ a:visited {
     position: relative;
     left: 50px;
     color: #000000;
-    font-family: arbutus slab;
+    font-family: "arbutus slab", not cursive;
 }
 
 
