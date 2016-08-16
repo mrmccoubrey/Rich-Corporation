@@ -9,7 +9,7 @@ function cycleImages(){
  $active.css('z-index',1).show().removeClass('backpic1');//reset the z-index and unhide the image
  $next.css('z-index',3).addClass('backpic1');//make the next image the top one
  });
- }
+ };
  $(document).ready(function() {
   
  
