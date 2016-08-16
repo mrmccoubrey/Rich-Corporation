@@ -15,11 +15,7 @@ p, h5, h6 {
     font-family: "arbutus slab", not cursive;
 }
 
-main {
-    position: absolute;
-    left: 0;
-    right: 0;
-}
+
 
 
 .mdl-mega-footer {
@@ -38,8 +34,7 @@ html {
 }
 
 body {
-    height: 100%;
-    }
+}
 a {
     color: blue;
     font-family: "arbutus slab", not cursive;
@@ -66,31 +61,31 @@ a:visited {
 }
 
 /*#backpic1 {
-    position: fixed;
-    left: -150px;
-    z-index: 2;
-}
-
-#backpic2 {
-    position: fixed;
-    z-index: 2;
-}
-
-#backpic3 {
-    position: fixed;
-    z-index: 2;
-}
-
-#backpic4 {
-    position: fixed;
-    z-index: 2;
-}
-
-#backpic5 {
-    position: fixed;
-    z-index: 2;
-}
-*/
+ position: fixed;
+ left: -150px;
+ z-index: 2;
+ }
+ 
+ #backpic2 {
+ position: fixed;
+ z-index: 2;
+ }
+ 
+ #backpic3 {
+ position: fixed;
+ z-index: 2;
+ }
+ 
+ #backpic4 {
+ position: fixed;
+ z-index: 2;
+ }
+ 
+ #backpic5 {
+ position: fixed;
+ z-index: 2;
+ }
+ */
 
 /* --- End HTML/Body --- */
 
@@ -174,9 +169,9 @@ a:visited {
 }
 
 /* --- End Titles --->
-
-
-/* <--- Navbar ---> */
+ 
+ 
+ /* <--- Navbar ---> */
 
 #navbar {
     position: relative;
@@ -228,9 +223,8 @@ a:visited {
 }
 
 #bandcamp {
-    position: relative;
+    position: absolute;
     left: 200px;
-    top: 50px;
 }
 
 #video1 {
@@ -286,7 +280,7 @@ a:visited {
     left: 523px;
 }
 
-/* 
+/*
  
  <--- Black Underline Bars --->
  
@@ -651,3 +645,9 @@ a:visited {
 #contactustext {
     text-align: center;
 }
+
+#discmain {
+    position: relative;
+    margin-top: 1px;
+}
+
