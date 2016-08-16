@@ -10,6 +10,8 @@ function cycleImages(){
  $next.css('z-index',3).addClass('backpic1');//make the next image the top one
  });
  }
+ $(document).ready(function() {
+  
  
  $(window).on("load", function() {
  // run every 7s
@@ -17,3 +19,4 @@ function cycleImages(){
                    $('#backpiccontainer').fadeIn(3500);
  setInterval('cycleImages()', 5000).delay(6000);
                    });
+});
